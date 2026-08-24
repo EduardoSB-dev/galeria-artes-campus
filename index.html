@@ -2,19 +2,76 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Arte do Campus</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <header><h1>Galeria de Arte do Campus 2026</h1></header>
-=======
-    <header><h1>Galeria de Arte Universitaria</h1></header>
->>>>>>> branch-B
+    <header>
+        <h1>Galeria de Arte Universitária</h1>
+    </header>
+
     <main>
-        <section id="grid"><h2>Grid de Obras</h2></section>
-        <section id="obra"><h2>Obra em Destaque</h2></section>
-        <section id="autores"><h2>Autores Estudantes</h2></section>
+        <!-- SEÇÃO 1: GRID DE OBRAS -->
+        <section id="grid">
+            <h2>Grid de Obras</h2>
+            <div class="grid-container">
+                <article class="card-obra">
+                    <img src="img/obras/picasso1.jpeg" alt="Obra Guernica de Picasso">
+                    <h3>Guernica</h3>
+                    <p>Pablo Picasso</p>
+                </article>
+                <article class="card-obra">
+                    <img src="img/obras/picasso2.jpeg" alt="Obra As Senhoritas de Avignon de Picasso">
+                    <h3>Les Demoiselles d'Avignon</h3>
+                    <p>Pablo Picasso</p>
+                </article>
+                <article class="card-obra">
+                    <img src="img/obras/davinci2.jpeg" alt="Obra A Última Ceia de Da Vinci">
+                    <h3>A Última Ceia</h3>
+                    <p>Leonardo da Vinci</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: OBRA EM DESTAQUE (Com a pasta reorganizada na Q5) -->
+        <section id="obra">
+            <h2>Obra em Destaque</h2>
+            <div class="destaque-container">
+                <img src="img/destaque/davinci1.jpeg" alt="Mona Lisa de Leonardo da Vinci">
+                <div class="destaque-info">
+                    <h3>Mona Lisa</h3>
+                    <p><strong>Artista:</strong> Leonardo da Vinci</p>
+                    <p><strong>Técnica:</strong> Óleo sobre madeira de álamo</p>
+                    <p><strong>Período:</strong> Renascimento Italiano</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: AUTORES DA EXPOSIÇÃO -->
+        <section id="autores">
+            <h2>Autores em Destaque</h2>
+            <div class="autores-container">
+                <article class="autor-card">
+                    <img src="img/autores/davincifoto.jpeg" alt="Retrato de Leonardo da Vinci">
+                    <div>
+                        <h3>Leonardo da Vinci</h3>
+                        <p>Pintor, Polímata e Inventor</p>
+                    </div>
+                </article>
+                <article class="autor-card">
+                    <img src="img/autores/picassofoto.jpeg" alt="Retrato de Pablo Picasso">
+                    <div>
+                        <h3>Pablo Picasso</h3>
+                        <p>Pintor e Escultor Cubista</p>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Galeria de Arte do Campus - Disciplina de DevOps</p>
+    </footer>
 </body>
 </html>
