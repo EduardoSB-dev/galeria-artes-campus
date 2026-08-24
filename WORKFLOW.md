@@ -6,6 +6,13 @@ Adotamos o GitHub Flow. A branch `main` guarda o código final e estável. Novas
 - `feature/nome-da-feature`: Para criar telas ou partes do site (ex.: `feature/secao-grid`).
 - `fix/nome-do-ajuste`: Para correção de bugs.
 
+### Tipos Comuns:
+- `feat`: Adição de nova funcionalidade.
+- `fix`: Correção de erros.
+- `docs`: Alterações na documentação.
+- `style`: Ajustes visuais (CSS, cores, layout).
+- `refactor`: Reorganização de código sem alterar o funcionamento.
+
 ## 3. Política de Commits Semânticos
 Estrutura das mensagens: `<tipo>: <descrição>`
 
