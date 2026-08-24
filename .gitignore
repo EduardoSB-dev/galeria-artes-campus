@@ -1,3 +1,9 @@
-*log
-node.modules/
-db.obras
+# Arquivos pegos em site
+https://www.google.com/search?q=picasso+imagem
+https://www.google.com/search?q=davinci+imagem
+
+# Arquivos de sistema e SO
+
+# Logs e dependências temporárias
+*.log
+.vscode/
