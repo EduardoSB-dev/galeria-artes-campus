@@ -2,8 +2,15 @@
 https://www.google.com/search?q=picasso+imagem
 https://www.google.com/search?q=davinci+imagem
 
-# Arquivos de sistema e SO
 
 # Logs e dependências temporárias
 *.log
 .vscode/
+
+##Como revisar mudanças
+Antes de integrar (fazer o *merge*) de qualquer branch de trabalho na branch principal (`main`), o time realiza a inspeção das alterações para garantir a qualidade do código e evitar conflitos.
+
+### 1. Pelo Terminal (Git CLI)
+- **Verificar apenas a lista de arquivos modificados:**
+  ```bash
+  git diff --name-status main..nome-da-branch
